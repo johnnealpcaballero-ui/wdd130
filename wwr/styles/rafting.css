@@ -5,10 +5,10 @@
 }
 
 :root {
-    --primary-color: #055a05;
-    --secondary-color: #f4a261;
-    --accent1-color: #264653;
-    --accent2-color: #e9c46a;
+    --primary-color: green;
+    --secondary-color: crimson;
+    --accent1-color: steelblue;
+    --accent2-color: #FFDB77;
     --heading-font: "Times New Roman", "Georgia", serif;
     --body-font: Arial, Helvetica, sans-serif;
 }
@@ -71,7 +71,7 @@ h2 {
     padding: 16px;
     text-align: center;
     opacity: 0.7;
-    background-color: var(--accent1-color);
+    background-color: var(--secondary-color);
     color: #fff;
 }
 
