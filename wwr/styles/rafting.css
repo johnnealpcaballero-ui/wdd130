@@ -78,11 +78,6 @@ header nav a:hover {
 }
 
 /* Hero section */
-
-.socialmedia a {
-    text-decoration: none;
-}
-
 .hero {
     position: relative;
 }
