@@ -120,6 +120,8 @@ footer {
 }
 
 .grid {
+    max-width: 840px;
+    margin: 0 auto;
     display: grid;
     align-items: center;
 }
