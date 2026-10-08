@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | White Water Rafting</title>
+    <meta name="description"
+      content="Contact White Water Rafting for questions, reservations, and more information about our rafting adventure.">
+    <meta name="author" content="John Neal Caballero">
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
+
+<body>
+    <header>
+        <img src="images/raftingboatlogo.png" alt="White Water Rafting">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="trips.html">Trips</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="contact-info">
+            <p class="company-name">White Water Rafting Company</p>
+            <p>Ibabang Atingay, Magdalena, 4000 Laguna</p>
+            <p>Phone: 999-999-9999</p>
+            <p>Email: <a href="mailto:info@whitewater.com">info@whitewater.com</a></p>
+        </div>
+
+        <div class="contact-layout">
+            <div>
+                <iframe class="contact-map"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1253.9829357681417!2d121.4419209032622!3d14.205776872852773!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x32fff2dbbdfa2743%3A0x53d89c6be5cb12df!2sKagay%20Whitewater%20Rafting!5e0!3m2!1sen!2sph!4v1791453015166!5m2!1sen!2sph"
+                  width="600" height="450" allowfullscreen="" loading="lazy"
+                  referrerpolicy="strict-origin-when-cross-origin"></iframe>
+            </div>
+            <form class="contact-form">
+                <div>
+                    <label for="fullname">Full Name:</label>
+                    <input type="text" id="fullname" name="fullname" required>
+                </div>
+                <div>
+                    <label for="useremail">Email:</label>
+                    <input type="email" id="useremail" name="useremail" required>
+                </div>
+                <div class="purpose-field">
+                    <fieldset>
+                        <legend>Message purpose</legend>
+                        <div>
+                            <input type="radio" name="purpose" id="generalinquiry"
+                              value="generalinquiry">
+                            <label for="generalinquiry">General Inquiry</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="purpose" id="reservation" value="reservation">
+                            <label for="reservation">Reservation Question</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="purpose" id="suggestions" value="suggestions">
+                            <label for="suggestions">Website Suggestion</label>
+                        </div>
+                    </fieldset>
+                </div>
+                <div>
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message" rows="4"
+                      placeholder="Type here"></textarea>
+                </div>
+                <div>
+                    <input type="checkbox" id="subscription" name="subscription">
+                    <label for="subscription">Please subscribe me
+                        to
+                        the monthly newsletter</label>
+                </div>
+                <button type="submit">Get in touch</button>
+            </form>
+        </div>
+
+        <section class="employees">
+            <h3>We Are Here to Serve You</h3>
+            <div class="employee-container">
+                <figure> <img src="images/employee1.jpg" alt="webdeveloper" width="200">
+                    <figcaption>Arduin Bautista - Web Developer</figcaption>
+                </figure>
+                <figure> <img src="images/employee2.jpg" alt="contentmanager" width="200">
+                    <figcaption>Rylle Yen - Content Manager</figcaption>
+                </figure>
+                <figure> <img src="images/employee3.jpg" alt="customersupportspecialist"
+                      width="200">
+                    <figcaption>Nick Dale - Customer Support Specialist</figcaption>
+                </figure>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>©2026 ⚔️White Water Rafting ⚔️ John Neal Caballero</p>
+        <nav class="socialmedia">
+            <a href="https://facebook.com">
+                <img src="images/facebook.png" alt="Facebook Icon">
+            </a>
+            <a href="https://instagram.com">
+                <img src="images/instagram.png" alt="Instagram Icon"></a>
+            <a href="https://linkedin.com">
+                <img src="images/linkedin.png" alt="LinkedIn Icon">
+            </a>
+        </nav>
+    </footer>
+</body>
+
+</html>
