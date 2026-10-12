@@ -427,3 +427,122 @@ footer p {
     border: none;
     cursor: pointer;
 }
+
+.trips-page {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.trips-page .trips {
+    grid-column: 1 / -1;
+    text-align: center;
+    background-color: #f4f1de;
+    padding: 20px;
+}
+
+.trips-page .trips h1 {
+    margin-bottom: 15px;
+}
+
+.trips-page .trip-details {
+    margin: 0;
+    padding: 15px;
+    background-color: #f4f1de;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.trips-page .trip-details h2 {
+    position: static;
+    width: auto;
+    top: auto;
+    padding: 10px;
+    margin: 0 0 15px;
+    background-color: var(--primary-color);
+    color: white;
+    opacity: 1;
+    text-align: center;
+}
+
+.trips-page .trip-details img {
+    width: 80%;
+    height: 180px;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto 15px;
+}
+
+.trips-page .trip-details p {
+    line-height: 1.5;
+}
+
+.trips-page .trips-contact {
+    grid-column: 1 / -1;
+    text-align: center;
+    padding: 20px;
+    background-color: #f4f1de;
+    border-radius: 8px;
+}
+
+.trips-page .trips-contact h2 {
+    position: static;
+    width: auto;
+    top: auto;
+    padding: 10px;
+    background-color: transparent;
+    color: var(--primary-color);
+    opacity: 1;
+}
+
+.trips-page .trips-contact a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 12px 20px;
+    background-color: var(--primary-color);
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.trips-page .trips-contact a:hover {
+    background-color: var(--accent1-color);
+}
+
+.trips-page .trips-table {
+    grid-column: 1 / -1;
+    margin: 0;
+    padding: 20px;
+    overflow-x: auto;
+}
+
+.trips-page .trips-table h2 {
+    position: static;
+    width: auto;
+    top: auto;
+    padding: 15px;
+    margin-bottom: 15px;
+    background-color: transparent;
+    color: var(--primary-color);
+    opacity: 1;
+}
+
+.trips-page .trips-table table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.trips-page .trips-table th,
+.trips-page .trips-table td {
+    padding: 12px;
+    border: 1px solid #ccc;
+    text-align: left;
+}
+
+.trips-page .trips-table th {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.trips-page .trips-table tbody tr:nth-child(even) {
+    background-color: #f4f1de;
+}
