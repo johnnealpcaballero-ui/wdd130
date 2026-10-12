@@ -141,6 +141,11 @@ h2 {
     text-align: center;
 }
 
+.hero article h2 {
+    position: static;
+    margin-bottom: 10px;
+}
+
 .hero article p {
     margin-bottom: 12px;
 }
@@ -441,6 +446,13 @@ footer p {
 }
 
 .trips-page .trips h1 {
+    margin-bottom: 15px;
+}
+
+.trips-page .trips h2 {
+    position: static;
+    top: auto;
+    opacity: 1;
     margin-bottom: 15px;
 }
 
